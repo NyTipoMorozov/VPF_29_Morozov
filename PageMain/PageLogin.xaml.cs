@@ -43,11 +43,13 @@ namespace VPF_29_Morozov.PageMain
                         case 1:
                             MessageBox.Show("Здраствуйте, Администратор " + userObj.name + "!",
                                 "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
+                            NavigationService.Navigate(new PageMenuAdmin());
                         break;
                         case 2:
                             MessageBox.Show("Здраствуйте, Ученик " + userObj.name + "!",
                                 "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
-                        break;
+                            NavigationService.Navigate(new PageAdmin.PageAccountStudent());
+                            break;
                     }    
 
 

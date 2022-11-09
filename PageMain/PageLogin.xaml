@@ -6,12 +6,12 @@
       xmlns:local="clr-namespace:VPF_29_Morozov.PageMain"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="PageLogin">
+      Title="Авторизация">
 
     <Grid>
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Label Content="Введите логин" Style="{StaticResource Label}"/>
-            <TextBox Text=" " Style="{StaticResource TextBox}" x:Name="txbLogin"/>
+            <TextBox Text="" Style="{StaticResource TextBox}" x:Name="txbLogin"/>
             <Label Content="Введите пароль" Style="{StaticResource Label}"/>
             <PasswordBox Style="{StaticResource PasswordBox}" x:Name="psbPassword"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
