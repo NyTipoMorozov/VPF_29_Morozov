@@ -60,5 +60,10 @@ namespace VPF_29_Morozov.PageMain
             "Уведомление", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            AppFrame.frameMain.Navigate(new PageCreateAcc());
+        }
     }
 }
